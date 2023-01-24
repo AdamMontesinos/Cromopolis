@@ -1,0 +1,210 @@
+@font-face {
+    font-family: tiron;
+    src: url("src/Fjalla_One/FjallaOne-Regular.ttf");
+  }
+
+  .vermell{
+    color: red;
+    font-size: small;
+    margin: -2px;
+  }
+
+  .verd{
+    color: green;
+    font-size: small;
+  }
+
+  header{
+    padding: 50px;
+    background: #00B607;
+    color: white;
+    margin-bottom: 30px;
+  }
+
+  .headertitle{
+    text-align: left;
+    font-size: 50px;
+    font-family: tiron;
+  }
+
+  h1{
+    font-family: tiron;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  h2{
+    font-family: tiron;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    text-align: center;
+    color: #000000;
+  }
+
+  .registerContainer{
+    display:flex;
+  }
+
+  .registerContainer img{
+    height: 100vh;
+    width: 45%;
+    object-fit: cover;
+  }
+
+  .registerForm{
+    width: 55%;
+    height: 100vh;
+    background: #00B607;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .productContainer{
+    display:flex;
+  }
+
+  .productForm{
+    width: 55%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .productAdd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .graybackground{
+    background-color: black;
+    border-radius: 20px;
+  }
+
+  p{
+    font-family: tiron;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+  }
+
+  input{
+    width: 365px;
+    height: 50px;
+    padding:20px;
+    border-radius: 15px;
+    border: none;
+  }
+
+  .campo{
+    margin: 30px;
+  }
+
+  .create{
+    font-family: tiron;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+  }
+
+  .buttonblack{
+    width: 365px;
+    height: 58px;
+    margin: 20px;
+    background: #000000;
+    font-family: tiron;
+    color: white;
+    border: none;
+    border-radius: 15px;
+  }
+
+  .inputOK{
+    border: 5px solid;
+    border-color:mediumspringgreen;
+  }
+
+  .inputKO{
+    border: 5px solid;
+    border-color: red;
+  }
+
+  .drop-area{
+    border: 2px dashed black;
+    height: 300px;
+    width: 400px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+  }
+     
+  .drop-area.active{
+    background-color: #ddd;
+    color: #000000;
+  }
+     
+  .drop-area button{
+    background-color: black;
+    color: #ffffff;
+    padding: 8px 15px;
+    text-align:center;
+    border:0px;
+    border-radius: 15px;
+    cursor: pointer;
+    border:2px solid black;
+  }
+     
+  .drop-area button:hover{
+    background-color: transparent;
+    color: black;
+  }
+    
+  .previewImage{
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    align-items: center;
+  }
+       
+  .previewImage img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+
+  .previewImage .removeBtn{
+    background-color: red;
+    border-radius: 100%;
+    font-size: 15px;
+    padding: 1px;
+    color: #fff;
+    border: 2px solid red;
+    margin-left: 40px;
+    cursor: pointer;
+   }
+       
+  .previewImage .removeBtn:hover{
+    background-color:transparent;
+    color:red;
+  }
